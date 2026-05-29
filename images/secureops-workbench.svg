@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-label="SecureOps SOC workbench dashboard preview">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#050a16"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2f6df6"/>
+      <stop offset="1" stop-color="#20d3ee"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#000000" flood-opacity="0.32"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="1000" fill="url(#bg)"/>
+  <rect x="0" y="0" width="320" height="1000" fill="#050918"/>
+  <rect x="320" y="0" width="1280" height="86" fill="#060b1a"/>
+  <line x1="320" y1="0" x2="320" y2="1000" stroke="#23304a" stroke-width="2"/>
+  <line x1="0" y1="86" x2="1600" y2="86" stroke="#23304a" stroke-width="2"/>
+
+  <rect x="32" y="28" width="48" height="48" rx="10" fill="#2f6df6"/>
+  <path d="M56 39l15 6v13c0 12-8 20-15 24-8-4-15-12-15-24V45z" fill="none" stroke="#ffffff" stroke-width="4" stroke-linejoin="round"/>
+  <text x="96" y="48" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="23" font-weight="800">SecureOps</text>
+  <text x="96" y="72" fill="#9db7df" font-family="Inter, Arial, sans-serif" font-size="18">SOC Workbench</text>
+
+  <rect x="16" y="128" width="288" height="52" rx="8" fill="#10224a"/>
+  <text x="72" y="162" fill="#cfe4ff" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="800">Dashboard</text>
+  <text x="72" y="228" fill="#cfe4ff" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">Alerts</text>
+  <text x="72" y="294" fill="#cfe4ff" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">Cases</text>
+  <text x="72" y="360" fill="#cfe4ff" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">Threat Intel</text>
+  <text x="72" y="426" fill="#cfe4ff" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">Playbooks</text>
+  <text x="72" y="492" fill="#cfe4ff" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">Reports</text>
+  <text x="72" y="558" fill="#cfe4ff" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">Settings</text>
+
+  <text x="388" y="48" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="900">SOC Analyst Workbench</text>
+  <text x="388" y="74" fill="#9ca9bd" font-family="Inter, Arial, sans-serif" font-size="18">Alert triage, enrichment, cases, and response operations</text>
+  <text x="1350" y="48" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="800">SOC Administrator</text>
+  <text x="1462" y="74" fill="#9ca9bd" font-family="Inter, Arial, sans-serif" font-size="18">Admin</text>
+
+  <text x="356" y="176" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="44" font-weight="900">Dashboard</text>
+  <text x="356" y="218" fill="#9db7df" font-family="Inter, Arial, sans-serif" font-size="24">Live operational posture across alerts, cases, and response performance.</text>
+
+  <g filter="url(#shadow)">
+    <rect x="356" y="268" width="228" height="190" rx="12" fill="#111a2d" stroke="#263552"/>
+    <rect x="604" y="268" width="228" height="190" rx="12" fill="#111a2d" stroke="#263552"/>
+    <rect x="852" y="268" width="228" height="190" rx="12" fill="#111a2d" stroke="#263552"/>
+    <rect x="1100" y="268" width="228" height="190" rx="12" fill="#111a2d" stroke="#263552"/>
+    <rect x="1348" y="268" width="228" height="190" rx="12" fill="#111a2d" stroke="#263552"/>
+  </g>
+
+  <text x="388" y="324" fill="#9db7df" font-family="Inter, Arial, sans-serif" font-size="21">Alerts 24h</text>
+  <text x="388" y="388" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="54" font-weight="900">1</text>
+  <text x="388" y="438" fill="#9db7df" font-family="Inter, Arial, sans-serif" font-size="21">1 in 7 days</text>
+  <rect x="500" y="304" width="52" height="52" rx="9" fill="#1d2a42"/>
+  <path d="M526 316l15 28h-30z" fill="none" stroke="#ffb35c" stroke-width="3"/>
+
+  <text x="636" y="324" fill="#9db7df" font-family="Inter, Arial, sans-serif" font-size="21">Open cases</text>
+  <text x="636" y="388" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="54" font-weight="900">0</text>
+  <text x="636" y="438" fill="#9db7df" font-family="Inter, Arial, sans-serif" font-size="21">0 closed</text>
+  <rect x="748" y="304" width="52" height="52" rx="9" fill="#1d2a42"/>
+
+  <text x="884" y="324" fill="#9db7df" font-family="Inter, Arial, sans-serif" font-size="21">MTTR</text>
+  <text x="884" y="388" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="54" font-weight="900">42m</text>
+  <text x="884" y="438" fill="#9db7df" font-family="Inter, Arial, sans-serif" font-size="21">Mean response time</text>
+  <rect x="996" y="304" width="52" height="52" rx="9" fill="#1d2a42"/>
+
+  <text x="1132" y="324" fill="#9db7df" font-family="Inter, Arial, sans-serif" font-size="21">SLA compliance</text>
+  <text x="1132" y="388" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="54" font-weight="900">94%</text>
+  <text x="1132" y="438" fill="#9db7df" font-family="Inter, Arial, sans-serif" font-size="21">0 breached</text>
+  <rect x="1244" y="304" width="52" height="52" rx="9" fill="#1d2a42"/>
+
+  <text x="1380" y="324" fill="#9db7df" font-family="Inter, Arial, sans-serif" font-size="21">Conversion</text>
+  <text x="1380" y="388" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="54" font-weight="900">0%</text>
+  <text x="1380" y="438" fill="#9db7df" font-family="Inter, Arial, sans-serif" font-size="21">Alerts to cases</text>
+  <rect x="1492" y="304" width="52" height="52" rx="9" fill="#1d2a42"/>
+
+  <rect x="356" y="506" width="714" height="390" rx="12" fill="#111a2d" stroke="#263552"/>
+  <text x="388" y="570" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="900">Alert Trend</text>
+  <text x="984" y="568" fill="#9db7df" font-family="Inter, Arial, sans-serif" font-size="18">14 days</text>
+  <line x1="470" y1="814" x2="1036" y2="814" stroke="#263552" stroke-width="2"/>
+  <line x1="470" y1="714" x2="1036" y2="714" stroke="#263552" stroke-width="2" stroke-dasharray="6 7"/>
+  <line x1="470" y1="614" x2="1036" y2="614" stroke="#263552" stroke-width="2" stroke-dasharray="6 7"/>
+  <polyline points="486,786 548,742 610,758 672,680 734,700 796,626 858,646 920,586 1000,622" fill="none" stroke="url(#blue)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <rect x="1100" y="506" width="476" height="390" rx="12" fill="#111a2d" stroke="#263552"/>
+  <text x="1132" y="570" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="900">Severity Distribution</text>
+  <circle cx="1248" cy="722" r="94" fill="none" stroke="#ff7a19" stroke-width="42"/>
+  <circle cx="1248" cy="722" r="94" fill="none" stroke="#222c42" stroke-width="42" stroke-dasharray="112 520" transform="rotate(-90 1248 722)"/>
+  <rect x="1388" y="628" width="76" height="32" rx="6" fill="#3b2319" stroke="#9f4b22"/>
+  <text x="1402" y="650" fill="#ffb35c" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="800">High</text>
+  <text x="1536" y="650" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="800">1</text>
+</svg>
