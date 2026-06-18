@@ -312,9 +312,11 @@
                     <div class="filter-group" aria-label="Filter projects">
                         <button class="filter-btn active" type="button" data-filter="all">All</button>
                         <button class="filter-btn" type="button" data-filter="soc">SOC</button>
+                        <button class="filter-btn" type="button" data-filter="ai">AI</button>
+                        <button class="filter-btn" type="button" data-filter="learning">Learning</button>
                         <button class="filter-btn" type="button" data-filter="automation">Automation</button>
                         <button class="filter-btn" type="button" data-filter="recon">Recon</button>
-                        <button class="filter-btn" type="button" data-filter="upcoming">Upcoming</button>
+                        <button class="filter-btn" type="button" data-filter="apps">Apps</button>
                     </div>
                 </div>
 
@@ -471,7 +473,7 @@
                         </div>
                     </article>
 
-                    <article class="project-card" data-category="soc automation" data-animate="card">
+                    <article class="project-card" data-category="soc automation apps" data-animate="card">
                         <a class="project-image" href="https://github.com/aliray-yan/secureops" target="_blank" rel="noreferrer">
                             <img src="images/secureops-workbench.svg" alt="SecureOps SOC Analyst Workbench dashboard preview" loading="lazy">
                             <span class="project-link-badge" aria-hidden="true">
@@ -481,16 +483,16 @@
                         <div class="project-body">
                             <span class="project-type">Full-Stack SOC</span>
                             <h3>SecureOps SOC Analyst Workbench</h3>
-                            <p>Full-stack SOC workbench for alert triage, threat-intel enrichment, case management, playbooks, reporting, and EDR alert ingestion.</p>
+                            <p>Full-stack SOC workbench for alert triage, threat-intel enrichment, cases, playbooks, report exports, live WebSockets, and idempotent EDR ingestion.</p>
                             <div class="tags">
                                 <span>React</span>
                                 <span>FastAPI</span>
-                                <span>Threat Intel</span>
+                                <span>EDR Ingest</span>
                             </div>
                         </div>
                     </article>
 
-                    <article class="project-card" data-category="soc" data-animate="card">
+                    <article class="project-card" data-category="soc apps" data-animate="card">
                         <a class="project-image project-image-contain" href="https://github.com/aliray-yan/IHADRSMobile" target="_blank" rel="noreferrer">
                             <img src="images/ihadrs-mobile.jpeg" alt="IHADRS Mobile Android EDR dashboard screenshot" loading="lazy">
                             <span class="project-link-badge" aria-hidden="true">
@@ -500,28 +502,87 @@
                         <div class="project-body">
                             <span class="project-type">Android EDR</span>
                             <h3>IHADRS Mobile</h3>
-                            <p>Offline-first Android Mobile Threat Defense foundation with local monitoring, explainable alerts, Room storage, and foreground services.</p>
+                            <p>Offline-first Android Mobile Threat Defense foundation with Compose UI, Room storage, Hilt, WorkManager, foreground monitoring, and local response layers.</p>
                             <div class="tags">
                                 <span>Kotlin</span>
-                                <span>Jetpack Compose</span>
-                                <span>WorkManager</span>
+                                <span>Compose</span>
+                                <span>Room</span>
                             </div>
                         </div>
                     </article>
 
-                    <article class="project-card project-card-empty" data-category="soc upcoming" data-animate="card">
-                        <div class="project-image project-placeholder">
-                            <i class="fa-brands fa-windows" aria-hidden="true"></i>
-                            <span>Case study coming soon</span>
-                        </div>
+                    <article class="project-card" data-category="soc automation apps" data-animate="card">
+                        <a class="project-image" href="https://github.com/aliray-yan/EDR-Ihadrs" target="_blank" rel="noreferrer">
+                            <img src="images/ihadrs-edr.svg" alt="IHADRS Windows EDR dashboard preview" loading="lazy">
+                            <span class="project-link-badge" aria-hidden="true">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </span>
+                        </a>
                         <div class="project-body">
-                            <span class="project-type">Upcoming</span>
-                            <h3>IHADRS for Windows</h3>
-                            <p>Placeholder card for the web-based Windows IHADRS project. Add screenshots, stack details, and incident handling workflow when ready.</p>
+                            <span class="project-type">Windows EDR</span>
+                            <h3>IHADRS Windows EDR</h3>
+                            <p>Standalone Python EDR with MITRE-mapped rules, behavioral correlation, Isolation Forest anomaly detection, automated response, dashboards, and SecureOps export.</p>
                             <div class="tags">
-                                <span>Windows</span>
-                                <span>Web Based</span>
-                                <span>Incident Response</span>
+                                <span>Python</span>
+                                <span>FastAPI</span>
+                                <span>MITRE</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card" data-category="learning apps" data-animate="card">
+                        <a class="project-image" href="https://github.com/aliray-yan/dotnet-mastery-zero-to-advanced" target="_blank" rel="noreferrer">
+                            <img src="images/dotnet-mastery.svg" alt=".NET Mastery learning platform preview" loading="lazy">
+                            <span class="project-link-badge" aria-hidden="true">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </span>
+                        </a>
+                        <div class="project-body">
+                            <span class="project-type">Learning Platform</span>
+                            <h3>.NET Mastery</h3>
+                            <p>Full-stack C# and .NET learning platform with React, ASP.NET Core, EF Core, PostgreSQL, JWT/RBAC, quizzes, labs, guided projects, and Android mode.</p>
+                            <div class="tags">
+                                <span>React</span>
+                                <span>ASP.NET Core</span>
+                                <span>PostgreSQL</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card" data-category="ai learning apps" data-animate="card">
+                        <a class="project-image" href="https://github.com/aliray-yan/rag-ai-mastery" target="_blank" rel="noreferrer">
+                            <img src="images/rag-ai-mastery.svg" alt="RAG AI Mastery learning platform preview" loading="lazy">
+                            <span class="project-link-badge" aria-hidden="true">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </span>
+                        </a>
+                        <div class="project-body">
+                            <span class="project-type">AI Learning</span>
+                            <h3>RAG AI Mastery</h3>
+                            <p>Full-stack AI and RAG learning platform with a RAG playground, code labs, quizzes, progress tracking, Prisma/PostgreSQL, and Android standalone mode.</p>
+                            <div class="tags">
+                                <span>RAG</span>
+                                <span>React</span>
+                                <span>Prisma</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card" data-category="learning apps" data-animate="card">
+                        <a class="project-image" href="https://github.com/aliray-yan/JavaLearningApp" target="_blank" rel="noreferrer">
+                            <img src="images/java-mastery.svg" alt="Java Mastery Android learning app preview" loading="lazy">
+                            <span class="project-link-badge" aria-hidden="true">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </span>
+                        </a>
+                        <div class="project-body">
+                            <span class="project-type">Android Learning</span>
+                            <h3>Java Mastery</h3>
+                            <p>Offline-first Android Java academy with 30 levels, lessons, quizzes, practice exercises, coding labs, capstones, flashcards, and local examiner feedback.</p>
+                            <div class="tags">
+                                <span>Kotlin</span>
+                                <span>Compose</span>
+                                <span>Offline</span>
                             </div>
                         </div>
                     </article>

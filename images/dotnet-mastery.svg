@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-label=".NET Mastery learning platform preview">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07111f"/>
+      <stop offset="1" stop-color="#142238"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#6bf4a6"/>
+      <stop offset="0.52" stop-color="#64d8ff"/>
+      <stop offset="1" stop-color="#ffd166"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#bg)"/>
+  <rect x="80" y="78" width="1440" height="844" rx="28" fill="#0b1424" stroke="#263955" stroke-width="3"/>
+  <text x="132" y="158" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="56" font-weight="900">.NET Mastery</text>
+  <text x="132" y="206" fill="#9db7df" font-family="Inter, Arial, sans-serif" font-size="25">Zero to Advanced full-stack learning platform</text>
+  <rect x="132" y="268" width="410" height="112" rx="18" fill="#101d31" stroke="#304561"/>
+  <text x="166" y="318" fill="#6bf4a6" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="800">26 Levels</text>
+  <text x="166" y="352" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="900">C# to ASP.NET Core</text>
+  <rect x="596" y="268" width="410" height="112" rx="18" fill="#101d31" stroke="#304561"/>
+  <text x="630" y="318" fill="#64d8ff" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="800">150+ Lessons</text>
+  <text x="630" y="352" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="900">Quizzes + labs</text>
+  <rect x="1060" y="268" width="410" height="112" rx="18" fill="#101d31" stroke="#304561"/>
+  <text x="1094" y="318" fill="#ffd166" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="800">Admin CMS</text>
+  <text x="1094" y="352" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="900">JWT + RBAC</text>
+  <rect x="132" y="458" width="1338" height="36" rx="18" fill="#1c2b43"/>
+  <rect x="132" y="458" width="1020" height="36" rx="18" fill="url(#accent)"/>
+  <g fill="none" stroke-width="6" stroke-linecap="round">
+    <path d="M190 690h220l120-110 150 130 170-190 190 170 200-140 150 120" stroke="#64d8ff"/>
+    <path d="M190 764h1210" stroke="#263955"/>
+    <path d="M190 624h1210" stroke="#182742"/>
+  </g>
+  <rect x="132" y="822" width="220" height="54" rx="14" fill="#13243a" stroke="#304561"/>
+  <text x="168" y="858" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="800">React</text>
+  <rect x="376" y="822" width="260" height="54" rx="14" fill="#13243a" stroke="#304561"/>
+  <text x="412" y="858" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="800">ASP.NET Core</text>
+  <rect x="660" y="822" width="220" height="54" rx="14" fill="#13243a" stroke="#304561"/>
+  <text x="696" y="858" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="800">EF Core</text>
+</svg>
