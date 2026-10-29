@@ -16,7 +16,7 @@
     themeToggle.setAttribute('aria-pressed', String(dark));
     const text = themeToggle.querySelector('span');
     if (text) text.textContent = dark ? 'Light' : 'Dark';
-    if (themeMeta) themeMeta.setAttribute('content', dark ? '#171d19' : '#f3f0e8');
+    if (themeMeta) themeMeta.setAttribute('content', dark ? '#101115' : '#f3f3f1');
   }
   syncThemeControl();
   themeToggle?.addEventListener('click', () => {

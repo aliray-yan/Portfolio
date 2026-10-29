@@ -1,0 +1,2 @@
+{"name":"portfolio-fx","private":true,"scripts":{"build":"esbuild src/fx.src.js --bundle --minify --format=iife --target=es2019 --outfile=fx.js && esbuild src/field.src.js --bundle --minify --format=iife --global-name=HeroField --target=es2019 --outfile=field.js"},
+"dependencies":{"gsap":"3.12.7","motion":"11.18.2","three":"0.170.0"},"devDependencies":{"esbuild":"0.24.2"}}
